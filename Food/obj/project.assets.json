@@ -1818,6 +1818,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Food.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Food.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Food.Core.dll": {}
+        }
+      },
+      "Food.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Food.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Food.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Food.Data.dll": {}
+        }
       }
     }
   },
@@ -6224,10 +6247,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Food.Core/1.0.0": {
+      "type": "project",
+      "path": "../Food.Core/Food.Core.csproj",
+      "msbuildProject": "../Food.Core/Food.Core.csproj"
+    },
+    "Food.Data/1.0.0": {
+      "type": "project",
+      "path": "../Food.Data/Food.Data.csproj",
+      "msbuildProject": "../Food.Data/Food.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Food.Data >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
     ]
   },
@@ -6255,7 +6289,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/richie/RiderProjects/Ptest1/Food.Data/Food.Data.csproj": {
+              "projectPath": "/Users/richie/RiderProjects/Ptest1/Food.Data/Food.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
