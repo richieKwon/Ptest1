@@ -1,0 +1,15 @@
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Data.deps.json
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Data.dll
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/ref/Food.Data.dll
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Data.pdb
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Core.dll
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Core.pdb
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.csproj.AssemblyReference.cache
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.AssemblyInfoInputs.cache
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.AssemblyInfo.cs
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.csproj.CoreCompileInputs.cache
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.csproj.CopyComplete
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.dll
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/ref/Food.Data.dll
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.pdb
