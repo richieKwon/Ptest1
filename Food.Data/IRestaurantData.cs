@@ -10,6 +10,8 @@ namespace Food.Data
         Restaurant GetById(int id);
         Restaurant Update(Restaurant updatedRestaurant);
         Restaurant Add(Restaurant newRestaurant);
+
+        Restaurant Delete(int id);
         int Commit();
 
     }
@@ -57,6 +59,16 @@ namespace Food.Data
             restaurants.Add(newRestaurant);
             newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
             return newRestaurant;
+        }
+
+        public Restaurant Delete(int id)
+        {
+            var restaurant = restaurants.FirstOrDefault(r => r.Id == id);
+            if (restaurant != null)
+            {
+                restaurants.Remove(restaurant);
+            }
+            return restaurant;
         }
 
         public int Commit()
