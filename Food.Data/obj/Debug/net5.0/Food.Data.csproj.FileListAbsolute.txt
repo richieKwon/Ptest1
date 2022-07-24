@@ -13,3 +13,6 @@
 /Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.dll
 /Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/ref/Food.Data.dll
 /Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.pdb
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Data.runtimeconfig.json
+/Users/richie/RiderProjects/Ptest1/Food.Data/bin/Debug/net5.0/Food.Data.runtimeconfig.dev.json
+/Users/richie/RiderProjects/Ptest1/Food.Data/obj/Debug/net5.0/Food.Data.genruntimeconfig.cache
