@@ -2,7 +2,12 @@
 @model Ptest1.Pages.DeleteModel
 @{
     ViewData["Title"] = "Delete";
+    Layout = "Shared/_Layout";
 }
 
-<h1>Delete</h1>
-
+<h2>Delete</h2>
+<div class="alert alert-danger">Are you sure to delete @Model.Restaurant.Name</div>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Yes</button>
+    <a asp-page="List" class="btn">Cancel</a>
+</form>
