@@ -51,6 +51,11 @@ namespace Food.Data
             return restaurant;
         }
 
+        public int GetCountOfRestaurants()
+        {
+            return _foodDbContext.Restaurants.Count();
+        }
+
         public int Commit()
         {
             return _foodDbContext.SaveChanges();

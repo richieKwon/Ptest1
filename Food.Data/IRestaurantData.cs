@@ -10,8 +10,9 @@ namespace Food.Data
         Restaurant GetById(int id);
         Restaurant Update(Restaurant updatedRestaurant);
         Restaurant Add(Restaurant newRestaurant);
-
         Restaurant Delete(int id);
+        int GetCountOfRestaurants();
+        
         int Commit();
 
     }
@@ -69,6 +70,11 @@ namespace Food.Data
                 restaurants.Remove(restaurant);
             }
             return restaurant;
+        }
+
+        public int GetCountOfRestaurants()
+        {
+            return restaurants.Count();
         }
 
         public int Commit()
