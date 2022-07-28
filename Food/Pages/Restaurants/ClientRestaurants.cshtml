@@ -1,0 +1,30 @@
+@page
+@model Ptest1.Pages.Restaurants.ClientRestaurantsModel
+@{
+    ViewData["Title"] = "ClientRestaurants";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>ClientRestaurants</h1>
+ 
+@section Scripts
+{
+    <environment include="Development">
+        <script src="/Users/richie/RiderProjects/Ptest1/Food/wwwroot/node_modules/datatables.net/js/jquery.dataTables.js"></script>
+        <script src="/Users/richie/RiderProjects/Ptest1/Food/wwwroot/node_modules/datatables.net-dt/js/dataTables.dataTables.js"></script>
+        <link href="/Users/richie/RiderProjects/Ptest1/Food/wwwroot/node_modules/datatables.net-dt/css/jquery.dataTables.css"/>
+    </environment>
+    
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
+    </environment>
+
+    <script>
+    $(
+        function (){ $.ajax("/api/restaurants/", {method:"get"})
+        .then(function (response){console.dir(response);}
+        )}
+    );
+    </script>
+}
