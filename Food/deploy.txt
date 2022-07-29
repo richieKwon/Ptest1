@@ -1,0 +1,4 @@
+[Publish]
+visual studio
+publish >> azure virtual machine
+
